@@ -104,8 +104,11 @@ export const CAREER = [
         start: 'Aug 2023',
         end: 'Dec 2023',
         description: [
-          'Contributing to the development of the CalegHub Application is an innovative solution designed to optimize legislative election campaigns through smart budget management and structured campaign planning.',
-          'The advantage of CalegHub is that it empowers legislative candidates, campaign coordinators and volunteers with innovative and integrated tools, so they can work together to achieve victory in the election.'
+         'Designing and developing mobile applications using React Native with TypeScript for both iOS and Android platforms.',
+         'Integrating the application with a RESTful API to retrieve and send data to the backend.',
+         'Optimizing application performance to ensure fast loading times and efficient battery consumption.'
+         //  'Contributing to the development of the CalegHub Application is an innovative solution designed to optimize legislative election campaigns through smart budget management and structured campaign planning.',
+         //  'The advantage of CalegHub is that it empowers legislative candidates, campaign coordinators and volunteers with innovative and integrated tools, so they can work together to achieve victory in the election.'
         ]
       },
       {
