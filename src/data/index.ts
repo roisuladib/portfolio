@@ -287,7 +287,7 @@ export const PROJECTS = [
       'View the list with all cryptocurrency prices of today. View live values of Bitcoin, Ethereum and thousands more.',
     link: {
       github: 'https://github.com/roisuladib/coinlush',
-      preview: 'https://coinlush-roisuladib.vercel.app/'
+      preview: 'https://coinlush-roisuladib.vercel.app/coins'
     },
     image: '/images/coinlush.png'
   }
