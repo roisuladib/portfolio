@@ -292,6 +292,25 @@ export const PROJECTS = [
     image: '/images/coinlush.webp'
   },
   {
+    title: 'Blockytics - Next.js',
+    tags: [
+      TAGS.CSS,
+      TAGS.NEXT,
+      TAGS.PNPM,
+      TAGS.REACT,
+      TAGS.TAILWIND,
+      TAGS.TYPESCRIPT,
+      TAGS.VERCEL
+    ],
+    description:
+      'Blockytics is the blockchain explorer available today. 100+ chains and counting rely on Blockscout data availability, APIs, and ecosystem tools to support their networks.',
+    link: {
+      github: 'https://github.com/roisuladib/blockytics',
+      preview: 'https://blockytics.vercel.app/blocks'
+    },
+    image: '/images/blockytics.webp'
+  },
+  {
     title: 'Password generator - Next.js',
     tags: [
       TAGS.CSS,
