@@ -289,6 +289,24 @@ export const PROJECTS = [
       github: 'https://github.com/roisuladib/coinlush',
       preview: 'https://coinlush-roisuladib.vercel.app/coins'
     },
-    image: '/images/coinlush.png'
+    image: '/images/coinlush.webp'
+  },
+  {
+    title: 'Password generator - Next.js',
+    tags: [
+      TAGS.CSS,
+      TAGS.NEXT,
+      TAGS.PNPM,
+      TAGS.REACT,
+      TAGS.TAILWIND,
+      TAGS.TYPESCRIPT,
+      TAGS.VERCEL
+    ],
+    description: 'Create strong, secure, and customizable passwords instantly with our password generator',
+    link: {
+      github: 'https://github.com/roisuladib/password-generator',
+      preview: 'https://pwgen.vercel.app'
+    },
+    image: '/images/password-generator.webp'
   }
 ]
