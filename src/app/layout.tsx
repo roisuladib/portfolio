@@ -14,10 +14,18 @@ import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import { cn } from '@/lib/utils'
 import './globals.css'
+import { siteConfig } from '@/config/site'
 
 const metadata: Metadata = {
-  title: 'Portfolio | Roisul Adib',
-  description: 'My personal portfolio: showcasing my work and skills.'
+  metadataBase: new URL(siteConfig.url),
+  title: {
+    default: siteConfig.name,
+    template: '%s | Roisul Adib'
+  },
+  description: 'Full Stack Developer specializing in React, Next.js, and modern web technologies. View my projects, skills, and experience in building scalable web applications.',
+  keywords: ['Roisul Adib', 'roisuladib', 'adib', 'Frontend Developer', 'Frontend Engineer', 'Backend Developer', 'Backend Engineer', 'Full Stack Developer', 'Web Developer', 'React', 'Next.js', 'Portfolio', 'JavaScript', 'TypeScript'],
+  authors: [{ name: 'Roisul Adib' }],
+  creator: 'Roisul Adib',
 }
 
 export default function RootLayout({
