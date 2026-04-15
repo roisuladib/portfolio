@@ -1,4 +1,4 @@
-export type SiteConfig = typeof siteConfig;
+export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
   name: 'Roisul Adib - Full Stack Developer Portfolio',
@@ -7,15 +7,15 @@ export const siteConfig = {
    navItems: [
       {
          label: 'Home',
-         href: '/',
+         href: '/'
       },
       {
          label: 'Docs',
-         href: '/docs',
+         href: '/docs'
       },
       {
          label: 'Blog',
-         href: '/blog',
+         href: '/blog'
       },
       {
          label: 'About',
@@ -25,31 +25,31 @@ export const siteConfig = {
    navMenuItems: [
       {
          label: 'Profile',
-         href: '/profile',
+         href: '/profile'
       },
       {
          label: 'Dashboard',
-         href: '/dashboard',
+         href: '/dashboard'
       },
       {
          label: 'Projects',
-         href: '/projects',
+         href: '/projects'
       },
       {
          label: 'Team',
-         href: '/team',
+         href: '/team'
       },
       {
          label: 'Calendar',
-         href: '/calendar',
+         href: '/calendar'
       },
       {
          label: 'Settings',
-         href: '/settings',
+         href: '/settings'
       },
       {
          label: 'Help & Feedback',
-         href: '/help-feedback',
+         href: '/help-feedback'
       },
       {
          label: 'Logout',
@@ -63,4 +63,4 @@ export const siteConfig = {
       discord: 'https://discord.gg/9b6yyZKmH4',
       sponsor: 'https://patreon.com/jrgarciadev'
    }
-};
+}
