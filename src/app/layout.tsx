@@ -25,7 +25,7 @@ const metadata: Metadata = {
   description: 'Full Stack Developer specializing in React, Next.js, and modern web technologies. View my projects, skills, and experience in building scalable web applications.',
   keywords: ['Roisul Adib', 'roisuladib', 'adib', 'Frontend Developer', 'Frontend Engineer', 'Backend Developer', 'Backend Engineer', 'Full Stack Developer', 'Web Developer', 'React', 'Next.js', 'Portfolio', 'JavaScript', 'TypeScript'],
   authors: [{ name: 'Roisul Adib' }],
-  creator: 'Roisul Adib',
+  creator: 'Roisul Adib'
 }
 
 export default function RootLayout({
